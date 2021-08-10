@@ -1,6 +1,5 @@
-name = "Weapons balance - Extra RHS Retextures (WS)";
-description = "A collection of weight balancing mods made by johnb43";
-tooltip = "Weight balance";
-tooltipOwned = "Weight balance";
-overview = "";
+name = "Weapons Balance - ILBE Rewrite";
+description = "A collection of balancing mods made by johnb43";
+tooltip = "Weapons Balance - ILBE Rewrite";
+tooltipOwned = "Weapons Balance - ILBE Rewrite";
 author = "johnb43";
