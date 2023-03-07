@@ -4,7 +4,9 @@ class CfgVehicles {
         mass = 90;
     };
 
-    class tfw_ilbe_blade_Base;
+    class tfw_ilbe_blade_Base: tfw_ilbe_Base {
+        tf_range = 40000;
+    };
     class tfw_ilbe_blade_alpine: tfw_ilbe_blade_Base {
         displayName = "RT-1523G (ASIP) + VHF Blade (Alpine)";
     };
@@ -39,7 +41,9 @@ class CfgVehicles {
         displayName = "RT-1523G (ASIP) + VHF Blade (WD)";
     };
 
-    class tfw_ilbe_DD_Base;
+    class tfw_ilbe_DD_Base: tfw_ilbe_Base {
+        tf_range = 40000;
+    };
     class tfw_ilbe_DD_alpine: tfw_ilbe_DD_Base {
         displayName = "RT-1523G (ASIP) + VHF/UHF (Alpine)";
     };
@@ -74,7 +78,9 @@ class CfgVehicles {
         displayName = "RT-1523G (ASIP) + VHF/UHF (WD)";
     };
 
-    class tfw_ilbe_whip_Base;
+    class tfw_ilbe_whip_Base: tfw_ilbe_Base {
+        tf_range = 40000;
+    };
     class tfw_ilbe_whip_alpine: tfw_ilbe_whip_Base {
         displayName = "RT-1523G (ASIP) + Whip (Alpine)";
     };
@@ -109,7 +115,9 @@ class CfgVehicles {
         displayName = "RT-1523G (ASIP) + Whip (WD)";
     };
 
-    class tfw_ilbe_whipext_Base;
+    class tfw_ilbe_whipext_Base: tfw_ilbe_Base {
+        tf_range = 50000;
+    };
     class tfw_ilbe_whipext_alpine: tfw_ilbe_whipext_Base {
         displayName = "RT-1523G (ASIP) + Whip (Alpine/Extended)";
     };
